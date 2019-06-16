@@ -1,0 +1,1053 @@
+{
+Name: "پروموشن کاله",
+Tabs: [
+{
+Id: 1051,
+Forms: [
+{
+Form: {
+Fields: [
+{
+Id: 1047,
+ResponseTitle: "تصویر فضای اولیه پروموشن",
+Response: "",
+name: "file-1551685028482",
+placeHolder: "",
+value: null,
+type: 5,
+required: false,
+UseMultiple: true,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 1,
+Size: 4,
+Items: [ ]
+},
+{
+Id: 1048,
+ResponseTitle: "تصویر فضای ثانویه پروموشن",
+Response: "",
+name: "file-1551685058497",
+placeHolder: "",
+value: null,
+type: 5,
+required: false,
+UseMultiple: true,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 2,
+Size: 4,
+Items: [ ]
+},
+{
+Id: 1116,
+ResponseTitle: "استفاده از اقلام تبلیغاتی",
+Response: "1",
+name: "select-1551686165223",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 3,
+Size: 1,
+Items: [
+{
+Id: 5831,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5832,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5833,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1117,
+ResponseTitle: "امتیاز پاخور پروموشن",
+Response: "1",
+name: "select-1551686201119",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 7,
+Size: 1,
+Items: [
+{
+Id: 5834,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5835,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5836,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1118,
+ResponseTitle: "امتیاز مرتبط بودن محل",
+Response: "1",
+name: "select-1551686205679",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 11,
+Size: 1,
+Items: [
+{
+Id: 5837,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5838,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5839,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1119,
+ResponseTitle: "امتیاز قابل دید بودن",
+Response: "1",
+name: "select-1551686201463",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 15,
+Size: 1,
+Items: [
+{
+Id: 5840,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5841,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5842,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1120,
+ResponseTitle: "وضعیت شارژ پروموشن",
+Response: "1",
+name: "select-1551686209071",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 19,
+Size: 1,
+Items: [
+{
+Id: 5843,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5844,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5845,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1024,
+ResponseTitle: "نظرسنجی",
+Response: "",
+name: "textarea-1551686280831",
+placeHolder: null,
+value: "",
+type: 4,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: "Invalid",
+RegEx: null,
+DisplayOrder: 23,
+Size: 4,
+Items: [ ]
+}
+],
+Id: 1079,
+Name: "پروموشن کاله - پنیر"
+},
+Repetitive: false
+}
+],
+Name: "پنیر"
+},
+{
+Id: 1052,
+Forms: [
+{
+Form: {
+Fields: [
+{
+Id: 1049,
+ResponseTitle: "تصویر فضای اولیه پروموشن",
+Response: "",
+name: "file-1551686344969",
+placeHolder: "",
+value: null,
+type: 5,
+required: false,
+UseMultiple: true,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 1,
+Size: 4,
+Items: [ ]
+},
+{
+Id: 1050,
+ResponseTitle: "تصویر فضای ثانویه پروموشن",
+Response: "",
+name: "file-1551686345376",
+placeHolder: "",
+value: null,
+type: 5,
+required: false,
+UseMultiple: true,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 2,
+Size: 4,
+Items: [ ]
+},
+{
+Id: 1121,
+ResponseTitle: "استفاده از اقلام تبلیغاتی",
+Response: "1",
+name: "select-1551686521087",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 3,
+Size: 1,
+Items: [
+{
+Id: 5846,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5847,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5848,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1122,
+ResponseTitle: "امتیاز پاخور پروموشن",
+Response: "1",
+name: "select-1551686549768",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 7,
+Size: 1,
+Items: [
+{
+Id: 5849,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5850,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5851,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1123,
+ResponseTitle: "امتیاز مرتبط بودن محل",
+Response: "1",
+name: "select-1551686551128",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 11,
+Size: 1,
+Items: [
+{
+Id: 5852,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5853,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5854,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1124,
+ResponseTitle: "امتیاز قابل دید بودن",
+Response: "1",
+name: "select-1551686552312",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 15,
+Size: 1,
+Items: [
+{
+Id: 5855,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5856,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5857,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1125,
+ResponseTitle: "وضعیت شارژ پروموشن",
+Response: "1",
+name: "select-1551686555040",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 19,
+Size: 1,
+Items: [
+{
+Id: 5858,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5859,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5860,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1025,
+ResponseTitle: "نظرسنجی",
+Response: "",
+name: "textarea-1551686601367",
+placeHolder: null,
+value: "",
+type: 4,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: "Invalid",
+RegEx: null,
+DisplayOrder: 23,
+Size: 4,
+Items: [ ]
+}
+],
+Id: 1080,
+Name: "پروموشن کاله - شیر"
+},
+Repetitive: false
+}
+],
+Name: "شیر"
+},
+{
+Id: 1053,
+Forms: [
+{
+Form: {
+Fields: [
+{
+Id: 1051,
+ResponseTitle: "تصویر فضای اولیه پروموشن",
+Response: "",
+name: "file-1551686871608",
+placeHolder: "",
+value: null,
+type: 5,
+required: false,
+UseMultiple: true,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 1,
+Size: 4,
+Items: [ ]
+},
+{
+Id: 1052,
+ResponseTitle: "تصویر فضای ثانویه پروموشن",
+Response: "",
+name: "file-1551686871870",
+placeHolder: "",
+value: null,
+type: 5,
+required: false,
+UseMultiple: true,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 2,
+Size: 4,
+Items: [ ]
+},
+{
+Id: 1126,
+ResponseTitle: "استفاده از اقلام تبلیغاتی",
+Response: "1",
+name: "select-1551687153910",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 3,
+Size: 1,
+Items: [
+{
+Id: 5861,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5862,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5863,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1127,
+ResponseTitle: "امتیاز پاخور پروموشن",
+Response: "1",
+name: "select-1551687203303",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 7,
+Size: 1,
+Items: [
+{
+Id: 5864,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5865,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5866,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1128,
+ResponseTitle: "امتیاز مرتبط بودن محل",
+Response: "1",
+name: "select-1551687204367",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 11,
+Size: 1,
+Items: [
+{
+Id: 5867,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5868,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5869,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1129,
+ResponseTitle: "امتیاز قابل دید بودن",
+Response: "1",
+name: "select-1551687205854",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 15,
+Size: 1,
+Items: [
+{
+Id: 5870,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5871,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5872,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1130,
+ResponseTitle: "وضعیت شارژ پروموشن",
+Response: "1",
+name: "select-1551687207671",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 19,
+Size: 1,
+Items: [
+{
+Id: 5873,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5874,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5875,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1026,
+ResponseTitle: "نظرسنجی",
+Response: "",
+name: "textarea-1551687263550",
+placeHolder: null,
+value: "",
+type: 4,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: "Invalid",
+RegEx: null,
+DisplayOrder: 23,
+Size: 4,
+Items: [ ]
+}
+],
+Id: 1081,
+Name: "پروموشن کاله - ماست"
+},
+Repetitive: false
+}
+],
+Name: "ماست"
+},
+{
+Id: 1054,
+Forms: [
+{
+Form: {
+Fields: [
+{
+Id: 1053,
+ResponseTitle: "تصویر فضای اولیه پروموشن",
+Response: "",
+name: "file-1551687336695",
+placeHolder: "",
+value: null,
+type: 5,
+required: false,
+UseMultiple: true,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 1,
+Size: 4,
+Items: [ ]
+},
+{
+Id: 1054,
+ResponseTitle: "تصویر فضای ثانویه پروموشن",
+Response: "",
+name: "file-1551687337174",
+placeHolder: "",
+value: null,
+type: 5,
+required: false,
+UseMultiple: true,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 2,
+Size: 4,
+Items: [ ]
+},
+{
+Id: 1131,
+ResponseTitle: "استفاده از اقلام تبلیغاتی",
+Response: "1",
+name: "select-1551687531662",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 3,
+Size: 1,
+Items: [
+{
+Id: 5876,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5877,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5878,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1132,
+ResponseTitle: "امتیاز پاخور پروموشن",
+Response: "1",
+name: "select-1551687564318",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 7,
+Size: 1,
+Items: [
+{
+Id: 5879,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5880,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5881,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1133,
+ResponseTitle: "امتیاز مرتبط بودن محل",
+Response: "1",
+name: "select-1551687563686",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 11,
+Size: 1,
+Items: [
+{
+Id: 5882,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5883,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5884,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1134,
+ResponseTitle: "امتیاز قابل دید بودن",
+Response: "1",
+name: "select-1551687562502",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 15,
+Size: 1,
+Items: [
+{
+Id: 5885,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5886,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5887,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1135,
+ResponseTitle: "وضعیت شارژ پروموشن",
+Response: "1",
+name: "select-1551687561742",
+placeHolder: "",
+value: "خوب,متوسط,ضعیف",
+type: 7,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: null,
+RegEx: null,
+DisplayOrder: 19,
+Size: 1,
+Items: [
+{
+Id: 5888,
+name: "خوب",
+value: "1",
+selected: true
+},
+{
+Id: 5889,
+name: "متوسط",
+value: "2",
+selected: false
+},
+{
+Id: 5890,
+name: "ضعیف",
+value: "3",
+selected: false
+}
+]
+},
+{
+Id: 1027,
+ResponseTitle: "نظرسنجی",
+Response: "",
+name: "textarea-1551687617381",
+placeHolder: null,
+value: "",
+type: 4,
+required: false,
+UseMultiple: false,
+ShowEmptyOption: false,
+MultipleSelection: false,
+EmptyOption: null,
+RegexAlert: "Invalid",
+RegEx: null,
+DisplayOrder: 23,
+Size: 4,
+Items: [ ]
+}
+],
+Id: 1082,
+Name: "پروموشن کاله - متفرقه"
+},
+Repetitive: false
+}
+],
+Name: "متفرقه"
+}
+]
+}

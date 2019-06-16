@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/fn_row_simple_text_iew"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:textColor="@android:color/black"
+        android:background="?attr/selectableItemBackground"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="@dimen/fn_field_text_size"
+        android:gravity="center_vertical|center_horizontal"/>
+
+</LinearLayout>

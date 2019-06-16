@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Native Form </string>
+
+
+
+    <string name="mission">Mission</string>
+    <string name="Customer">Customer</string>
+
+    <string name="mission_details_du_date_text">Start Mission by:</string>
+    <string name="mission_details_deadline_text">Mission Deadline:</string>
+
+    <string name="mission_title">Subject: </string>
+    <string name="select_time">Select Time </string>
+    <string name="form_mandatory_error">Unable to submit form. Mandatory fields must be filled.</string>
+
+
+    <string name="singature_form">Singature</string>
+    <string name="only_one_file_is_allowed">Only one file is allowed</string>
+    <string name="select_region">Select region: </string>
+    <string name="no_location_available_for_this">No location available for this</string>
+
+
+    <string name="file_form">File</string>
+    <string name="camera_form">Camera</string>
+    <string name="upload">Upload</string>
+    <string name="doc_type">Document type</string>
+    <string name="upload_file">Upload file</string>
+    <string name="ok">Ok</string>
+
+
+    <string name="error_sync">Error synchronization</string>
+    <string name="file_related">Related files</string>
+    <string name="successful">Successful</string>
+    <string name="not_successful">Not successful</string>
+    <string name="sending">Sending</string>
+    <string name="No_handler_for_this_type_of_file">No handler for this type of file</string>
+
+    <string name="show_region">Show</string>
+    <string name="attachment_list">Attachment list</string>
+    <string name="form">Form</string>
+    <string name="inspection_done">Submit</string>
+    <string name="no_active_mission">No mission to show</string>
+
+</resources>
+
+
+
+

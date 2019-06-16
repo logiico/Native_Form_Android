@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#aaa" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/show_status"
+                android:layout_width="4dp"
+                android:layout_height="match_parent"/>
+            <com.example.nativeformmakerandroid.views.TenthImageButton
+                android:id="@+id/row_fragment_file_list_sub_remove"
+                style="@style/toolbar_image_end"
+                android:src="@drawable/close_white"
+                android:tint="#a00" />
+
+            <TextView
+                android:id="@+id/row_fragment_file_list_sub_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center_vertical|right"
+                android:paddingRight="32dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/row_fragment_file_list_sub_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            app:srcCompat="@drawable/shadow_bottom"
+            android:scaleType="fitXY"/>
+    </FrameLayout>
+
+</LinearLayout>

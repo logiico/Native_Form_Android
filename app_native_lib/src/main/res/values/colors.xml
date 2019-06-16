@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryold">#00b49d</color>
+    <color name="colorPrimaryDark_old">#00b49d</color>
+
+    <color name="colorPrimary">#154c61</color>
+    <color name="colorPrimaryDark">#003b49</color>
+    <color name="textcolorPrimary">#154c61</color>
+
+   <!-- <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#9f2e14</color>-->
+
+    <color name="colorFiroozehWhite">#37c4b3</color>
+    <color name="colorFiroozehDark">#12af9c</color>
+
+    <!--<color name="colorFiroozehWhite">#008bea</color>-->
+    <!--<color name="colorFiroozehDark">#008bea</color>-->
+
+    <color name="window_background">#fff</color>
+    <color name="grey_background">#969696</color>
+    <color name="textPrimary">#262626</color>
+    <color name="textSecondary">#727272</color>
+    <color name="grey_line">#b6b6b6</color>
+    <color name="fn_grey_line_border">#e6e7e8</color>
+
+    <color name="grey_background_light">#e6e7e8</color>
+    <color name="colorAccent">#f4742c</color>
+    <color name="grey_text_selected">#333333</color>
+    <color name="grey_text">#666666</color>
+    <color name="red_text">#ef2e14</color>
+    <color name="grey_text_hint">#8c8c8c</color>
+    <color name="divider">#33aaaaaa</color>
+    <color name="help_background">#185a33</color>
+    <color name="no_color_background">#00ffffff</color>
+    <color name="text_color_black">#000000</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="grey_light">#ffffee</color>
+
+    <color name="green_color_btn">#11c95b</color>
+
+    <color name="green_message_order_type">#9aca3c</color>
+    <color name="red_message_order_type">#ef2e14</color>
+    <color name="blue_message_order_type">#008bea</color>
+    <color name="yellow_message_order_type">#ffa71a</color>
+
+    <color name="grey_dashboard_tracker">#8c8c8c</color>
+
+    <color name="online">#00b000</color>
+    <color name="gps_off">#f9a825</color>
+    <color name="offline">#ff3838</color>
+    <color name="noInternet">#888888</color>
+    <color name="online_transparent">#1900c853</color>
+    <color name="gps_off_transparent">#19f9a825</color>
+    <color name="offline_transparent">#19ff3838</color>
+    <color name="noInternet_transparent">#19888888</color>
+    <color name="tour_guide_tooltip_background">#003b49</color>
+    <color name="tour_guide_text">#ffffff</color>
+    <color name="tour_guide_overlay_background">#95000000</color>
+    <color name="black_overlay_background">#20000000</color>
+    <color name="blue_light">#1976D2</color>
+
+    <!--<color name="blue">#ff0099cc</color>-->
+    <color name="blue">#37c4b3</color>
+    <color name="gray">#808080</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent_black">#20000000</color>
+    <color name="transparent_white">#20ffffff</color>
+    <color name="primary_dark">#003b49</color>
+    <color name="primary">#37c4b3</color>
+    <color name="accent">#f4742c</color>
+    <color name="cyanDark">#12af9c</color>
+</resources>

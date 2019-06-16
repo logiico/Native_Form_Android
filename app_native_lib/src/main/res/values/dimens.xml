@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="slidingmenu_offset">100dp</dimen>
+    <dimen name="slidingmenu_shadow_width">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="menu_item_image_height">20dp</dimen>
+    <dimen name="menu_icon_padding">12dp</dimen>
+    <dimen name="menu_icon_outside">48dp</dimen>
+    <dimen name="other_product_item_height">140dp</dimen>
+    <dimen name="button_radius">8dp</dimen>
+
+    <dimen name="edittext_borde_radius">7dp</dimen>
+    <dimen name="button_padding_top_bottom">4dp</dimen>
+    <dimen name="map_bottom_sheet_textsize">12sp</dimen>
+
+    <dimen name="recipe_detail_banner_indicator_margin_top">155dp</dimen>
+
+
+    <dimen name="map_bottom_sheet_textsize_value">12sp</dimen>
+    <dimen name="btn_radius">12dp</dimen>
+    <dimen name="btn_radius_less_orange">5dp</dimen>
+
+    <dimen name="btn_radius_less">10dp</dimen>
+    <dimen name="btn_radius_lesser">5dp</dimen>
+    <dimen name="bullet_line_height">3dp</dimen>
+    <dimen name="job_details_font_size">13sp</dimen>
+    <dimen name="job_details__title_font_size">15sp</dimen>
+    <dimen name="general_tab_item_font_size">14sp</dimen>
+
+    <dimen name="job_details_margn_items">8dp</dimen>
+    <dimen name="panel_padding">24dp</dimen>
+    <dimen name="panel_img_text_distance">10dp</dimen>
+    <dimen name="panel_picto_heigh">100dp</dimen>
+    <dimen name="panel_button_margin_top">4dp</dimen>
+    <dimen name="notif_badg_dimen">12dp</dimen>
+    <dimen name="optional_margin">5dp</dimen>
+    <dimen name="activity_main_bottom_tab_height">150dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="mission_row_text_size">13sp</dimen>
+    <dimen name="mission_details_text_size">14dp</dimen>
+    <dimen name="mission_details_row_height">50dp</dimen>
+    <dimen name="mission_details_margin_right_left">10dp</dimen>
+
+    <dimen name="fn_field_margin_right_and_left">10dp</dimen>
+    <dimen name="fn_field_margin_top_or_bottom">5dp</dimen>
+    <dimen name="fn_field_text_size">13dp</dimen>
+    <dimen name="fn_field_line_margin_top">20dp</dimen>
+    <dimen name="synchronize_btn_font_size">11sp</dimen>
+
+</resources>

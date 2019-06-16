@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:minWidth="300dp">
+    
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <ImageButton
+            android:layout_marginLeft="8dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/circle_accent"
+            android:rotation="45"
+            android:id="@+id/row_fragment_file_list_plus"
+            app:srcCompat="@drawable/close_white"/>
+        <TextView
+            android:paddingRight="16dp"
+            android:background="?attr/selectableItemBackground"
+            android:id="@+id/row_fragment_file_list_title"
+            android:gravity="center_vertical|right"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            tools:listitem="@layout/row_fragment_file_list_sub"
+            android:id="@+id/row_fragment_file_list_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+</LinearLayout>

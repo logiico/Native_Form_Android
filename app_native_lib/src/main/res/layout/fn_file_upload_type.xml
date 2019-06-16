@@ -1,0 +1,53 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fn_file_field_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/fn_field_margin_right_and_left"
+        android:layout_marginTop="@dimen/fn_field_margin_top_or_bottom"
+        android:layout_marginRight="@dimen/fn_field_margin_right_and_left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fn_file_field_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="btn"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fn_field_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fn_file_field_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_green"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:text="@string/upload_file"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fn_field_text_size" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fn_field_images_RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/fn_field_line_margin_top"
+            android:background="@color/fn_grey_line_border"></View>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

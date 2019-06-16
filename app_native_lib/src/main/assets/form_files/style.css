@@ -1,0 +1,103 @@
+﻿/*==================== Color of text =====================*/
+.color-success {
+    color: #11c95b;
+}
+
+.color-alert {
+    color: #f03937;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.lojico-blue-light {
+    color: #37c4b3;
+}
+
+.lojico-orange-light {
+    color: #eb7121;
+}
+
+
+/*=========================== COLORS =======================*/
+.orange {
+    color: #ff954d;
+}
+
+.lojico-blue-back {
+    background-color: #37c4b3;
+}
+
+.lojico-orange-back {
+    background-color: #eb7121;
+}
+
+
+/*=================== notif topnav bar ===================*/
+
+.notif-topnavbar i {
+    border-color: #e87121;
+    color: #e87121;
+}
+
+.notif-topnavbar.notif-icon i {
+    color: #e87121;
+}
+
+.notif-topnavbar-counter {
+    border-color: #e87121;
+}
+/*====/*============== pmd tab =============/*====*/
+.pmd-tabs .pmd-tab-active-bar {
+    background: #eb7121;
+}
+/*================= btn ==================*/
+
+.btn-success, .dropdown-toggle.btn-success {
+    background-color: #4ad884;
+}
+
+    .btn-success:hover, .dropdown-toggle.btn-success:hover, .btn-success:focus, .dropdown-toggle.btn-success:focus, .btn-success:active, .dropdown-toggle.btn-success:active {
+        background-color: #11c95b;
+    }
+
+
+.btn-info, .dropdown-toggle.btn-info {
+    background-color: #37c4b3;
+}
+
+    .btn-info:hover, .dropdown-toggle.btn-info:hover, .btn-info:focus, .dropdown-toggle.btn-info:focus, .btn-info:active, .dropdown-toggle.btn-info:active {
+        background-color: #12af9c;
+    }
+
+.btn-primary, .dropdown-toggle.btn-primary {
+    background-color: #154c61;
+}
+
+    .btn-primary:hover, .dropdown-toggle.btn-primary:hover, .btn-primary:focus, .dropdown-toggle.btn-primary:focus {
+        background-color: #003b49;
+    }
+/*===================================*/
+.star:checked:before {
+    color: #ff954d;
+}
+
+
+/*===================================*/
+.pmd-textfield-focused {
+    background-color: #37c4b3;
+}
+
+.pmd-textfield-floating-label-active label.control-label {
+    color: #37c4b3;
+}
+/*==================================*/
+.sidenav-container-2 .pmd-tabs .nav-tabs > li.active > a {
+    color: #eb7121;
+    background-color: #fbfbfb;
+}
+/*=================================*/
+.body-custom {
+    background: url('/CustomFiles/Images/Artboard-world.jpg') no-repeat;
+}

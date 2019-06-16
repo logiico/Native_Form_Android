@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<!--tools:context="com.example.nativeformmakerandroid.fragment.FormFragment"-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_form_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:listitem="@layout/form_section_row" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fragment_form_fab"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plus_white"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        app:pressedTranslationZ="12dp" />
+
+</FrameLayout>

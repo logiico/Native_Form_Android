@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragment.FileListFragment">
+    <TextView
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:text="@string/attachment_list"
+        android:gravity="center_vertical|right"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_file_list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

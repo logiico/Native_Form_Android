@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#f4742c</color>
+    <color name="black">#000000</color>
+    <color name="blue">#37c4b3</color>
+    <color name="cyanDark">#12af9c</color>
+    <color name="gray">#808080</color>
+    <color name="primary">#37c4b3</color>
+    <color name="primary_dark">#003b49</color>
+    <color name="transparent_black">#20000000</color>
+    <color name="transparent_white">#20ffffff</color>
+    <color name="white">#ffffff</color>
+    <dimen name="circle_radius">80dp</dimen>
+    <dimen name="day_text_width">33dp</dimen>
+    <dimen name="signature_righ_left">23dp</dimen>
+    <dimen name="year_text_width">33dp</dimen>
+    <string name="app_name">SunDate Picker</string>
+    <string name="dark_theme" translatable="false">پوسته تیره</string>
+    <string name="date1" translatable="false">تاریخ شروع</string>
+    <string name="date2" translatable="false">تاریخ پایان</string>
+    <string name="default_font" translatable="false">فونت پیشفرض</string>
+    <string name="ok" translatable="false">تائید</string>
+    <string name="only_today" translatable="false">عدم نمایش آینده</string>
+    <string name="red_color" translatable="false">رنگ قرمز</string>
+</resources>

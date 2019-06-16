@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <com.example.nativeformmakerandroid.views.TenthToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:elevation="0dp">
+
+        <LinearLayout
+            android:id="@+id/activity_form_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/submit_form"
+                style="@style/toolbar_image_end"
+                app:srcCompat="@drawable/tick" />
+
+            <TextView
+                style="@style/toolbar_title"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:text="@string/inspection_done" />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/activity_form_close"
+            android:layout_width="@dimen/menu_icon_outside"
+            android:layout_height="@dimen/menu_icon_outside"
+            android:padding="13dp"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/close_white"
+            app:padding="@dimen/menu_icon_padding" />
+
+        <TextView
+            style="@style/toolbar_title"
+            android:layout_gravity="left"
+            android:text="@string/form"
+            android:visibility="gone" />
+    </com.example.nativeformmakerandroid.views.TenthToolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/sliding_tabs_fn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                app:tabGravity="fill"
+                android:textColor="@color/text_color_white"
+                app:tabMaxWidth="0dp"
+                app:tabTextColor="@color/text_color_white"
+                app:tabSelectedTextColor="@color/yellow_message_order_type"
+              />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager_fn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/white" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </LinearLayout>
+
+
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <include layout="@layout/loading" />
+
+      <!--  <android.support.design.widget.FloatingActionButton
+            android:id="@+id/activity_form_web_based_attachment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:src="@drawable/attachment"
+            android:tint="@android:color/white"
+            android:visibility="invisible"
+            app:fabSize="normal" />-->
+    </FrameLayout>
+</LinearLayout>

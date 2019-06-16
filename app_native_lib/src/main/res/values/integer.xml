@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="activity_transition_duration">400</integer>
+    <integer name="card_span_count">2</integer>
+    <integer name="minute_mili_second">60000</integer>
+    <integer name="hour_mili_second">3600000</integer>
+    <integer name="day_mili_second">86400000</integer>
+
+</resources>

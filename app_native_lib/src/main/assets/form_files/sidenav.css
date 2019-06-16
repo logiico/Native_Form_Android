@@ -1,0 +1,266 @@
+﻿.sidenav {
+    height: 100%;
+    width: 660px;
+    position: fixed;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+    background-color: #fff;
+    /*overflow-x: hidden;*/
+    transition: 0.5s;
+    padding-top: 60px;
+    border-left: 1px solid #ccc;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover, .offcanvas a:focus {
+            color: #f1f1f1;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        left: 15px;
+        font-size: 36px;
+        /*margin-left: 50px;*/
+    }
+
+.aside-collapsed .sidenav {
+    width: 520px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        /*padding-top: 15px;*/
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+
+/*=================== custom =================*/
+.sidenav-collapse-right {
+    margin-right: -520px;
+}
+
+.sidenav-container-push {
+    margin-right: 440px;
+    width: auto !important;
+}
+
+.sidenav-container {
+    margin-right: 220px;
+    height: 100%;
+}
+
+.aside-collapsed .sidenav-container {
+    margin-right: 70px;
+}
+
+.aside-collapsed .sidenav-container-push {
+    margin-right: 450px;
+}
+
+.sidenav-search-container {
+    position: fixed;
+    width: 439px;
+    height: 54px;
+    margin-top: -66px;
+    background-color: #fff;
+    padding: 9px;
+    border-bottom: 1px solid #ccc;
+    transition: 0.7s;
+    z-index: 2;
+}
+
+    .sidenav-search-container input.sidenav-search {
+        width: 75%;
+        display: inline;
+    }
+
+    .sidenav-search-container button {
+        margin-right: 10px;
+    }
+
+.sidenav-container .tab-content {
+    padding: 0px 0px;
+}
+
+.has-search .tab-content {
+    padding-top: 116px;
+}
+
+
+
+
+
+.aside-collapsed .sidenav-search-container {
+    width: 449px;
+}
+
+    .aside-collapsed .sidenav-search-container input.sidenav-search {
+        width: 74%;
+    }
+
+
+/*------------------- sidenav-search-container-2 --------------------*/
+.sidenav-search-container-2 {
+    position: fixed;
+    width: 439px;
+    height: 54px;
+    margin-top: 0px;
+    background-color: #fff;
+    padding: 9px;
+    border-bottom: 1px solid #ccc;
+    transition: 0.7s;
+    z-index: 2;
+}
+
+    .sidenav-search-container-2 input.sidenav-search {
+        width: 75%;
+        display: inline;
+    }
+
+    .sidenav-search-container-2 button {
+        margin-right: 10px;
+    }
+
+.aside-collapsed .sidenav-search-container-2 {
+    width: 449px;
+}
+
+    .aside-collapsed .sidenav-search-container-2 input.sidenav-search {
+        width: 74%;
+    }
+
+.has-search-2 .tab-content {
+    padding-top: 54px;
+}
+/*===========================================================*/
+/*======================== Sidenav 2 ========================*/
+/*===========================================================*/
+.sidenav-2 {
+    /*height: 50%; 
+    width: auto;
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+    right: 220px;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;*/
+    /*}
+{*/
+    margin-top: 0px;
+    /* height: 800px; */
+    width: auto;
+    /*position: fixed;*/
+    z-index: 1;
+    /* bottom: 0px; */
+    right: 220px;
+    left: 0;
+    background-color: #fff;
+    /* overflow-x: hidden; */
+    transition: 0.5s;
+    /* padding-top: 60px; */
+}
+
+    .sidenav-2 a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        /*font-size: 25px;*/
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav-2 a:hover, .offcanvas a:focus {
+            /*color: #f1f1f1;*/
+        }
+
+    .sidenav-2 .closebtn {
+        position: absolute;
+        top: 0;
+        left: 15px;
+        font-size: 36px;
+        /*margin-left: 50px;*/
+    }
+
+.aside-collapsed .sidenav-2 {
+    height: 500px;
+    right: 70px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        /*padding-top: 15px;*/
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+/*====================== custom - sidenav 2 ===========================*/
+/*.sidenav-container-2 {
+    margin-right: 220px;
+}
+
+.aside-collapsed .sidenav-container-2 {
+    margin-right: 20px;
+}*/
+
+.sidenav-collapse-up {
+    /*margin-bottom: 90vh;*/ display: none;
+}
+
+#goleman {
+    width: 100%;
+}
+
+.sidenav-2-width-push {
+    right: 0px;
+    /*z-index: 0;*/
+}
+
+.aside-collapsed .sidenav-2-width-push {
+    right: 520px;
+}
+
+body .select2-container {
+    width: 100% !important;
+}
+
+.width-78-percent {
+    width: 78.1%;
+}
+
+.width-100-percent {
+    width: 100%;
+}
+/*========================*/
+/*.active-sidenav {
+    width: 660px;
+}
+
+    .active-sidenav .sidenav-search-container {
+        width: 439px;
+    }
+
+    .active-sidenav .pmd-tabs-bg {
+        width: 439px;
+    }
+
+.sidenav-collapse-right .pmd-tabs-bg {
+    width: 0px;
+}*/

@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.afkar.sundatepicker">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application/>
+
+</manifest>

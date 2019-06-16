@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/form_item_section_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fontName="IRANSansMobile_Bold.ttf"
+        android:textSize="16sp"/>
+    <android.support.v7.widget.RecyclerView
+        tools:listitem="@layout/form_item_edittext_row"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingBottom="18dp"
+        android:id="@+id/form_item_section_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"/>
+</LinearLayout>
