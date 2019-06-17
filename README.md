@@ -29,7 +29,7 @@
 - This is same form created by above link :
  
  
-<img src="https://raw.githubusercontent.com/tahadev/Native_Form_Android_Sample/master/app_native_lib/src/main/java/com/example/nativeformmakerandroid/1_1.jpg" />
+<img src="https://raw.githubusercontent.com/tahadev/Native_Form_Android_Sample/master/app_native_lib/src/main/java/com/example/nativeformmakerandroid/1_2.png" />
 
 
 - how to use it :
