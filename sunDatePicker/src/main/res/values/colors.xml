@@ -1,0 +1,14 @@
+<resources>
+
+    <!--<color name="blue">#ff0099cc</color>-->
+    <color name="blue">#37c4b3</color>
+    <color name="gray">#808080</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent_black">#20000000</color>
+    <color name="transparent_white">#20ffffff</color>
+    <color name="primary_dark">#003b49</color>
+    <color name="primary">#37c4b3</color>
+    <color name="accent">#f4742c</color>
+    <color name="cyanDark">#12af9c</color>
+</resources>

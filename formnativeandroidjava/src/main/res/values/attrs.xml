@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PersianTextView">
+        <attr name="fontName" format="integer">
+            <enum name="BNazanin.ttf" value="1" />
+            <enum name="BYekan.ttf" value="2" />
+            <enum name="BYekanBold.ttf" value="3" />
+            <enum name="DroidArabicNaskh.ttf" value="4" />
+            <enum name="IRANSansMobile_Medium.ttf" value="5" />
+            <enum name="IRANSansMobile_UltraLight.ttf" value="6" />
+            <enum name="IRANSansMobile_Bold.ttf" value="7" />
+        </attr>
+        <attr name="isJustify" format="boolean">
+            <!--<enum name="true" value="true" />-->
+            <!--<enum name="false" value="false" />-->
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TenthToolbar">
+        <attr name="elevation" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="TenthImageButton">
+        <attr name="padding" format="dimension" />
+    </declare-styleable>
+</resources>

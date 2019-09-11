@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/fn_field_margin_right_and_left"
+        android:layout_marginTop="@dimen/fn_field_margin_top_or_bottom"
+        android:layout_marginRight="@dimen/fn_field_margin_right_and_left"
+        android:orientation="vertical">
+
+        <net.logiico.formnativeandroidjava.customView.PersianTextView
+            android:id="@+id/fn_rb_field_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fn_field_text_size"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/fn_rb_radio_group_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/fn_field_line_margin_top"
+            android:background="@color/fn_grey_line_border">
+
+        </View>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

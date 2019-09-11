@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.logiico.formnativeandroidjava">
+
+    <application android:name=".MyApplication">
+        <activity android:name=".activity.ActivityDisplayImage"/>
+        <activity android:name=".activity.FormNativeActivity" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities=".provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

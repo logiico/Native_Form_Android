@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="loading_reset_duration">50</integer>
+    <dimen name="fn_field_margin_right_and_left">10dp</dimen>
+    <dimen name="fn_field_margin_top_or_bottom">5dp</dimen>
+    <dimen name="fn_field_line_margin_top">20dp</dimen>
+    <dimen name="edittext_borde_radius">7dp</dimen>
+    <dimen name="button_radius">8dp</dimen>
+    <dimen name="button_padding_top_bottom">4dp</dimen>
+    <dimen name="menu_icon_outside">48dp</dimen>
+    <dimen name="menu_icon_padding">12dp</dimen>
+    <dimen name="fn_field_text_size">13dp</dimen>
+    <string name="attachment_list">Attachment list</string>
+</resources>

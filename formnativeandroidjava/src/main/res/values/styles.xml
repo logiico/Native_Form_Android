@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="floating_action_button">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    <style name="pickersTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary_dark</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowTitleStyle">@style/cancel_job_lable_texts</item>
+    </style>
+    <style name="cancel_job_lable_texts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_color_black</item>
+    </style>
+    <style name="gravity_end">
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="toolbar_image_end" parent="gravity_end">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">@dimen/menu_icon_padding</item>
+        <item name="android:layout_width">@dimen/menu_icon_outside</item>
+        <item name="android:layout_height">@dimen/menu_icon_outside</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+    <style name="toolbar_title">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title
+        </item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+    <style name="toolbar_title_with_icon_right" parent="toolbar_title">
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+</resources>

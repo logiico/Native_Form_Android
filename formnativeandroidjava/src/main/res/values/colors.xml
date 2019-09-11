@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#154c61</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="yellow_message_order_type">#ffa71a</color>
+    <color name="snack_bar_background">#323232</color>
+    <color name="snack_bar_red_color">#CC0000</color>
+    <color name="fn_grey_line_border">#e6e7e8</color>
+    <color name="grey_line">#b6b6b6</color>
+    <color name="Green">#008000</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="text_color_black">#000000</color>
+    <color name="colorPrimaryold">#00b49d</color>
+    <color name="snack_bar_text_color">#ffffff</color>
+</resources>

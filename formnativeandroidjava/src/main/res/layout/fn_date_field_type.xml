@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/fn_field_margin_right_and_left"
+        android:layout_marginTop="@dimen/fn_field_margin_top_or_bottom"
+        android:layout_marginRight="@dimen/fn_field_margin_right_and_left"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/fn_field_date_mandatory"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:visibility="gone"
+                app:srcCompat="@drawable/red_asterisk" />
+
+
+            <net.logiico.formnativeandroidjava.customView.PersianTextView
+                android:id="@+id/fn_field_date_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fn_field_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <net.logiico.formnativeandroidjava.customView.PersianTextView
+                android:id="@+id/fn_field_date_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/edittext_border_grey"
+                android:gravity="center_horizontal"
+                android:hint="YY/MM/DD"
+                android:minWidth="100dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fn_field_text_size"
+                android:textStyle="bold" />
+
+
+            <net.logiico.formnativeandroidjava.customView.PersianTextView
+                android:id="@+id/fn_field_date_time_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/edittext_border_grey"
+                android:gravity="center_horizontal"
+                android:hint="HH:MM"
+                android:minWidth="50dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fn_field_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/fn_field_line_margin_top"
+            android:background="@color/fn_grey_line_border">
+
+        </View>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

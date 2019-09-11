@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="circle_radius">80dp</dimen>
+    <dimen name="day_text_width">33dp</dimen>
+    <dimen name="year_text_width">33dp</dimen>
+    <dimen name="signature_righ_left">23dp</dimen>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:orientation="horizontal">
+
+    <net.logiico.formnativeandroidjava.customView.PersianTextView
+        android:id="@+id/fn_row_simple_text_iew"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/fn_field_text_size" />
+
+</LinearLayout>

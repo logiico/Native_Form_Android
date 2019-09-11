@@ -1,0 +1,59 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fn_text_string_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/fn_field_margin_right_and_left"
+        android:layout_marginTop="@dimen/fn_field_margin_top_or_bottom"
+        android:layout_marginRight="@dimen/fn_field_margin_right_and_left"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/fn_field_string_mandatory"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/red_asterisk" />
+
+            <net.logiico.formnativeandroidjava.customView.PersianTextView
+                android:id="@+id/fn_field_tv_string_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fn_field_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <net.logiico.formnativeandroidjava.customView.PersianEditText
+            android:id="@+id/fn_field_et_string_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_border_grey"
+            android:gravity="right"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fn_field_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/fn_field_line_margin_top"
+            android:background="@color/fn_grey_line_border"></View>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
