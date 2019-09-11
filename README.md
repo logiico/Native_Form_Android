@@ -46,7 +46,7 @@
 - This is same form created by above link :
  
  
-<img src="https://github.com/logiico/Native_Form_Android/blob/master/image_2019_7_2-10_20_32_669_bi6.png" />
+<img src="https://github.com/logiico/Native_Form_Android/blob/master/app/src/main/res/raw/form.json" />
 
 
 - how to use it :
