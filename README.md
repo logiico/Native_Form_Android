@@ -51,7 +51,7 @@
 
 - how to use it :
 
-  you need to add these code to your project which is used to send required data to ActivityNativeform.java 
+  you need to add these code to your project which is used to send required data to FormNativeActivity.java 
 
 
        Intent intent = new Intent(getApplicationContext(), FormNativeActivity.class);
