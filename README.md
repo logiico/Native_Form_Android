@@ -92,6 +92,6 @@ How to get result of filled form:
     }
 
 
-Now you can enjoy the android native form maker, HOOORAY ;)
+Now you can enjoy the android native form viewer, HOOORAY ;)
     
    
