@@ -54,25 +54,16 @@
   you need to add these code to your project which is used to send required data to ActivityNativeform.java 
 
 
-       btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                  Intent intent;
-                  intent = new Intent(getApplicationContext(), ActivityFormNative.class);
-                  intent.putExtra(ConstString.JOB_TEMPLATE_ID, 1 /*mission.Templates.get(position).Id*/); // todo : make pop up
-                  long uid = ...  ; // A uniq ID for form
-                  intent.putExtra(ConstString.JOB_DATA_U_ID, uid); //
-                  intent.putExtra(ConstString.FORM_EDITABLE, true); //
-                  SimpleDateFormat simpleDateFormat = new SimpleDateFormat(ConstHelper.Simple_Date_Format);
-                  String currDate = ... ; // A datetime in string format
-                  intent.putExtra(ConstString.FORM_ENTERING_TIME, currDate); 
-                  String templateJson = ... ; // A string which is a Form (Template) in json format
-                  intent.putExtra(ConstString.FORM_TEMPLATE_IN_JSON_FORMAT, templateJson); //
-                  intent.putExtra(ConstString.STATUS_IN_APP, EnumDataStatusInApp.STATUS_NOT_SET_YET.getIntValue()); 
-                  
-                  startActivityForResult(intent, FORM_REQUEST_CODE);
-              }
-          });
+       Intent intent = new Intent(getApplicationContext(), FormNativeActivity.class);
+       SimpleDateFormat simpleDateFormat = new SimpleDateFormat(ConstHelper.Simple_Date_Format);
+       String currDate = simpleDateFormat.format(Utils.CurrectDateToServerDate(new Date(), getApplicationContext(), ""));
+       intent.putExtra(FormNativeActivity.RESULT_ENTERING_TIME, currDate);
+       String templateJson = getTemplatesContent(MyApplication.getInstance(), R.raw.form);
+       intent.putExtra(FormNativeActivity.TEMPLATE_CONTENT, templateJson); // your template in json format should be passed through this parameter
+       intent.putExtra(FormNativeActivity.TEMPLATE_EDITABLE, true); //this parameter verifies that you just show the form with restored data or user can fill the form  
+       intent.putExtra(FormNativeActivity.RESULT_UID, Utils.CurrectDateToServerDate(new Date(), getApplicationContext(), "").getTime()); // the unique identifier for result
+       intent.putExtra(FormNativeActivity.RESULT_STATUS_IN_APP, RoomTemplateResult.EnumResultStatusInApp.NOT_SET.getIntValue());
+       startActivityForResult(intent, FORM_REQUEST_CODE);
 
 How to get result of filled form: 
  

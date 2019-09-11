@@ -1,11 +1,10 @@
 package net.logiico.formnativeandroidjavasample;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import net.logiico.formnativeandroidjava.MyApplication;
 import net.logiico.formnativeandroidjava.activity.FormNativeActivity;
@@ -28,18 +27,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.activity_main_test_button).setOnClickListener(view -> {
-            Intent intent;
-            intent = new Intent(getApplicationContext(), FormNativeActivity.class);
-//            intent.putExtra(ConstString.JOB_TEMPLATE_ID, 1 /*mission.Templates.get(position).Id*/); // todo : make pop up
-            long uid = Utils.CurrectDateToServerDate(new Date(), getApplicationContext(), "").getTime() /*+ "" + String.valueOf(AuthenticateHelper.getDeviceId(getApplicationContext(), ""))*/;
+            Intent intent = new Intent(getApplicationContext(), FormNativeActivity.class);
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat(ConstHelper.Simple_Date_Format);
             String currDate = simpleDateFormat.format(Utils.CurrectDateToServerDate(new Date(), getApplicationContext(), ""));
-            intent.putExtra(FormNativeActivity.RESULT_ENTERING_TIME, currDate); //
+            intent.putExtra(FormNativeActivity.RESULT_ENTERING_TIME, currDate);
             String templateJson = getTemplatesContent(MyApplication.getInstance(), R.raw.form);
-            intent.putExtra(FormNativeActivity.TEMPLATE_CONTENT, templateJson); //
-            intent.putExtra(FormNativeActivity.TEMPLATE_EDITABLE, true); //
+            intent.putExtra(FormNativeActivity.TEMPLATE_CONTENT, templateJson);
+            intent.putExtra(FormNativeActivity.TEMPLATE_EDITABLE, true);
             intent.putExtra(FormNativeActivity.RESULT_UID, Utils.CurrectDateToServerDate(new Date(), getApplicationContext(), "").getTime());
-            intent.putExtra(FormNativeActivity.RESULT_STATUS_IN_APP, RoomTemplateResult.EnumResultStatusInApp.NOT_SET.getIntValue()); //
+            intent.putExtra(FormNativeActivity.RESULT_STATUS_IN_APP, RoomTemplateResult.EnumResultStatusInApp.NOT_SET.getIntValue());
             startActivityForResult(intent, FORM_REQUEST_CODE);
         });
     }
