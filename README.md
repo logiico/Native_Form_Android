@@ -40,13 +40,13 @@
       and put it to "templateJson" variable to send to ActivitynativeForm.java by Intent.
 
      This is a sample json for a form : 
-     [here](https://github.com/logiico/Native_Form_Android/blob/master/app_sample/src/main/res/raw/form.json)
+     [here](https://github.com/logiico/Native_Form_Android/blob/master/app/src/main/res/raw/form.json)
 
   
 - This is same form created by above link :
  
  
-<img src="https://github.com/logiico/Native_Form_Android/blob/master/app/src/main/res/raw/form.json" />
+<img src="https://github.com/logiico/Native_Form_Android/blob/master/image_2019_7_2-10_20_32_669_bi6.png" />
 
 
 - how to use it :
